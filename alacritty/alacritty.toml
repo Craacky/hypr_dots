@@ -1,0 +1,42 @@
+import = [
+  # uncomment the flavour you want below:
+  "~/.config/alacritty/themes/campbell.toml"
+]
+[font]
+size = 13.0
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[cursor]
+blink_interval = 500
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[env]
+WINIT_X11_SCALE_FACTOR = "1.0"
+
+
+[window]
+dynamic_padding = true
+dynamic_title = true
+opacity = 1.0
+
+[window.padding]
+x = 10
+y = 5
